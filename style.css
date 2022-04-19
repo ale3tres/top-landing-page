@@ -1,0 +1,150 @@
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    display: flex;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+    border-left:#1f2937;
+    border-right: #1f2937;
+    border-top:#1f2937;
+    border-bottom-color: #f9faf8;
+    border-style: solid;
+}
+.header-logo img {
+    width: auto;
+    height: 84px;
+    margin-right: auto;
+}
+.header-link {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+.header-link a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 10px;
+
+}
+.hero {
+    display: flex;
+    color:#f9faf8;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    flex-wrap: wrap;
+}
+.hero-cta {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8
+}
+.dior-1 {
+    display: flex;
+    width: auto;
+    height: 750px;
+}
+.hero button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: lightblue;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+
+}
+.body {
+    align-items: center;
+
+}
+.types {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.types img {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #f9faf8;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 0 200px;
+}
+.quote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right;
+    font-weight: 500
+}
+.sign-up {
+    background-color:#1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.signs-text {
+    color: #ffffff;
+}
+.sign-up {
+    display: flex;
+}
+.sign-item {
+    padding: 30px;
+}
+.sign-item button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: lightblue;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+}
+.footer {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
